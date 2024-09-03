@@ -143,7 +143,7 @@ jobs:
           echo "::set-output name=branch::${GITHUB_REF##*/}"
 
       - name: Download info plist
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: Info
 

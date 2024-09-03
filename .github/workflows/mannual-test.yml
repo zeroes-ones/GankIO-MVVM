@@ -169,7 +169,7 @@ jobs:
           echo "::set-output name=pre_tag::$pre_tag_param"
 
       - name: Download info plist
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: Info
 
